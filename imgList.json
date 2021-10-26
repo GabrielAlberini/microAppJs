@@ -1,0 +1,31 @@
+let images =[{
+        "url": "appGame/1.png"
+    },
+    {
+        "url": "appGame/2.png"
+    },
+    {
+        "url": "appGame/3.png"
+    },
+    {
+        "url": "appGame/4.png"
+    },
+    {
+        "url": "appGame/5.png"
+    },
+    {
+        "url": "appGame/6.png"
+    },
+    {
+        "url": "appGame/7.png"
+    },
+    {
+        "url": "appGame/8.png"
+    },
+    {
+        "url": "appGame/9.png"
+    },
+    {
+        "url": "appGame/10.png"
+    }
+]

@@ -1,0 +1,50 @@
+* {
+    transition: all .2s ease;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.075);
+}
+.app {
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 0 10px black;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+}
+
+.imgGame{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.buttonGame {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 3px black;
+    color: white;
+    background-color: rgb(21, 33, 71);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    z-index: 1000;
+}
+.buttonGame:hover {
+    background-color: royalblue;   
+}
+
+
