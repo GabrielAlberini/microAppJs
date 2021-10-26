@@ -27,6 +27,17 @@
     height: auto;
     border-radius: 10px;
     object-fit: cover;
+    animation-name: show;
+    animation-duration: .2s;
+}
+
+@keyframes show {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
 }
 
 .buttonGame {
